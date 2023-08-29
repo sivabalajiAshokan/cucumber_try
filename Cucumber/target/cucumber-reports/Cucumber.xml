@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.192638">
+    <testcase classname="OrangeHrm App Testing" name="orangeHrm" time="0.192638">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at base_class.BassClass.getur(BassClass.java:28)&#13;&#10;&#9;at step_definition.Step_Definiton.get_Url(Step_Definiton.java:24)&#13;&#10;&#9;at ✽.Given Get Url(orangeHrm.feature:5)&#13;&#10;">
+            <![CDATA[Given Get Url...............................................................failed
+And Input UserName From Username Input Feield...............................skipped
+And Input Password From Password Field......................................skipped
+And Click The Login Button..................................................skipped
+And Click The Pim Menu......................................................skipped
+And Add Emplayee Details Menu Click.........................................skipped
+And Input The Value In Firstname............................................skipped
+And Input The Middlename in Middlename field................................skipped
+And Input The Lastname In Lastname field....................................skipped
+Then Click The Save Button And Navigate To Main Menu........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at base_class.BassClass.getur(BassClass.java:28)
+	at step_definition.Step_Definiton.get_Url(Step_Definiton.java:24)
+	at ✽.Given Get Url(orangeHrm.feature:5)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
